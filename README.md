@@ -31,3 +31,7 @@ If the user wants to go back to the original table, all they have to do is delet
 
 
 ## Summary: In a summary statement, describe one drawback of this new design and two recommendations for further development.
+
+There are several drawbacks to the current design, but if I had to pick the most important to fix first it would be the fact that the search is case sensitive.  While the placeholder text does give the user the example of the correct format, many people are used to entering city names with the first letter capitalized and entering city initials with both letters capitalized.
+
+My recommendations for further development would first be to enable the search terms to be insensitive to capitalization.  This would presumably by adding to the code a line that set all of the search terms to lowercase when putting them in the filters list object.  The next recommendation would be to enable the user to search for more than one item at a time in a given category.  For example, if a user wanted to search on multiple states or multiple shapes they should be able to do that.  Finally, stylistically, the color of the search text should be changed.  Currently it is hard to visually discern the typed in criteria (currently shown in black) vs the placeholder text (currently shown in gray).
