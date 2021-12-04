@@ -14,7 +14,7 @@ The purpose of this analysis is to enable the end user to be able to filter a UF
 Upon first loading the page, the user is presented with the title of the page and a short article which provides insight into the purpose of the page and UFO database.
 ![image](https://user-images.githubusercontent.com/90977689/144717961-79ab5bed-7c7c-4366-ad0e-e355d0caa0c2.png)
 
-Upon scrolling down the page, the user is presented with the UFO data table and 5 search containers on the left hand side of the page.
+Upon scrolling down the page, the user is presented with the UFO data table and 5 search fields on the left hand side of the page.
 ![image](https://user-images.githubusercontent.com/90977689/144718009-d2a7637d-33c6-4709-a9ba-288814f05657.png)
 
 The search fields hold example text to inform the user of the format for entering search criteria.  To perform a search on singular category, the user just needs to fill in the search term and hit return or tab on their keyboard and the table is redisplayed with only rows containing the search criteria.  An example search on state is shown below:
